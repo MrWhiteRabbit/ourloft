@@ -1,0 +1,149 @@
+body {
+    background-image: url('../img/ocean.jpg');
+    background-repeat: none;
+    background-color: gray;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.main {
+    width: 94%;
+    height: 500px;
+    background-color: rgba(0, 0, 102, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    padding-right:15px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.main div {
+    height:400px;
+    width: 99%;
+    background-color: rgba(51, 51, 204, 0.5);
+    border-radius: 10px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:15px;
+
+}
+
+.headers-main div{
+
+    height: 30px;
+    background-color: #6666cc;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+    padding-top:0;
+}
+
+.main a{
+    text-decoration:none;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.main a:hover{
+    text-decoration:none;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #6666cc;
+    color: white;
+}
+
+.navigate-menu{
+    width: 600px;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+.navigate-menu-hr{
+    margin:0;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:0;
+    width: 97%;
+}
+
+.navigate-menu a{
+    text-decoration: none;
+    margin-left: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.navigate-menu a:hover{
+    background-color: #6666cc;
+    color: white;
+}
+
+form {
+
+    padding-left: 10px;
+    width: 400px;
+
+}
+
+.avatar img{
+    border-radius: 10px;  
+    margin: 10px; 
+    margin-top: 10px; 
+    margin-bottom:5px;
+}
+
+.edit-profile{
+    margin:0;
+    padding:0;
+    font-size: 11px;
+}
+
+.user-info{
+    padding:0;
+    padding-left:10px;
+}
+
+.avatar-mini img{
+    margin-top: 3px;
+    border-radius: 3px;  
+ 
+}
+
+.last-seen{
+    font-size: 11px;
+}
+
+.author-post{
+    font-size: 11px;
+}
+
+.reg-msg{
+    font-size: 11px;    
+}
+
+.new-post{
+    border-radius: 5px;
+}
+
+.footer{
+    width: 97%;
+    padding:1px 5px 1px 5px;
+    font-size: 10px;
+    color: black;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,10 @@
+{% extends "base.html"  %}
+{% block content %}
+      <div class="main">
+          <h2>Ты за новостями и погодой, {{ current_user.username }}?</h2>
+          <form action="/w" method="post">
+              <p>{{ form.submit() }}</p>
+          </form>
+
+      </div>
+{% endblock %}

@@ -1,0 +1,13 @@
+<table class='table table-hover'>
+    <tr>
+        <td width='70px' class='avatar-mini'>
+            <img src="{{ post.author.avatar(70) }}">
+        </td>
+        <td>
+            <a href="{{ url_for('user', username=post.author.username) }}">
+                {{ post.author.username }}</a>
+            <span class='author-post'> написал(а) {{ moment(post.timestamp).fromNow() }}:</span><br>
+            <span class='body-post'>{{ post.body }}</span>
+        </td>
+    </tr>
+</table>
